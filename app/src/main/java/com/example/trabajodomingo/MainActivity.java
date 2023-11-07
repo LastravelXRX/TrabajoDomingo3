@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
     ListView Lista;
 
+    //Primera modificacion
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             BaseDatos.close();
             ID.setText("");
             Rut.setText("");
+
             Nombre.setText("");
             Telefono.setText("");
             Direccion.setText("");
